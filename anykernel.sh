@@ -40,7 +40,8 @@ if mountpoint -q /data; then
       continue
     fi
 
-    ui_print "  • Optimizing F2FS extension list"
+    ui_print " "
+    ui_print "Optimizing F2FS extension list..."
     echo "Updating extension list: $list_path"
 
     echo "Clearing extension list"
